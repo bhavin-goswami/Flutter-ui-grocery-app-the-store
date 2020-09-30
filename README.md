@@ -1,4 +1,4 @@
-# Flutter-Grocery-ui-app
+# Flutter-ui-grocery-app-the-store
 
 The Store
 
