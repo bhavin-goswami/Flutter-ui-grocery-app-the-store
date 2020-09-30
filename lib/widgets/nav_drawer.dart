@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'Drawerfile.dart';
+import 'package:home_store/util/app_theme.dart';
 
 class Drawerfile extends StatefulWidget {
   @override
@@ -111,20 +110,22 @@ class _DrawerfileState extends State<Drawerfile> {
       children: <Widget>[
         Container(
           height: size.height / 10,
-          color: Color(0xff2874F0),
+          color: AppTheme.primarycolor,
           child: Center(
             child: ListTile(
-              title: Text(
-                'Home',
-                style: TextStyle(color: Colors.white),
-              ),
-              leading: Icon(
-                Icons.home,
-                color: Colors.white,
-              ),
-              trailing:Image.asset("assets/flutter2.png", height: size.height / 20,
-                width: size.width/10,)
-            ),
+                title: Text(
+                  'Home',
+                  style: TextStyle(color: Colors.white),
+                ),
+                leading: Icon(
+                  Icons.home,
+                  color: Colors.white,
+                ),
+                trailing: Image.asset(
+                  "assets/flutter2.png",
+                  height: size.height / 20,
+                  width: size.width / 10,
+                )),
           ),
         ),
         ListView.builder(

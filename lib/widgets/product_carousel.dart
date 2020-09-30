@@ -46,7 +46,6 @@ class ProductCarousel extends StatelessWidget {
           ),
           Expanded(
             child: Column(
-
               mainAxisAlignment: MainAxisAlignment.end,
               children: <Widget>[
                 Text(
@@ -58,10 +57,7 @@ class ProductCarousel extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 10.0),
-
                 FlatButton(
-
-
                   padding: EdgeInsets.all(4.0),
                   onPressed: () => print('Add to cart'),
                   color: Colors.blueAccent,

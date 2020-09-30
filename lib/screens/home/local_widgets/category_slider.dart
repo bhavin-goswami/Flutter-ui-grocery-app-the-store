@@ -12,13 +12,13 @@ class _CategorySliderState extends State<CategorySlider> {
     return Container(
       color: AppTheme.notWhite,
       child: Padding(
-        padding: const EdgeInsets.only(top:8.0,bottom: 8.0),
+        padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
         child: SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Row(
             children: <Widget>[
               Padding(
-                padding: const EdgeInsets.only(left:20,right: 20),
+                padding: const EdgeInsets.only(left: 20, right: 20),
                 child: Column(
                   children: <Widget>[
                     Container(
@@ -36,7 +36,8 @@ class _CategorySliderState extends State<CategorySlider> {
                     Text("Grocerys")
                   ],
                 ),
-              ),Padding(
+              ),
+              Padding(
                 padding: const EdgeInsets.only(right: 20),
                 child: Column(
                   children: <Widget>[
@@ -157,7 +158,7 @@ class _CategorySliderState extends State<CategorySlider> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left:0,right: 20),
+                padding: const EdgeInsets.only(left: 0, right: 20),
                 child: Column(
                   children: <Widget>[
                     Container(

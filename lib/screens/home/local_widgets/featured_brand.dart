@@ -17,15 +17,18 @@ class _FifthlistState extends State<Fifthlist> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Padding(
-              padding: const EdgeInsets.only(left: 20,bottom: 8,top: 8),
+              padding: const EdgeInsets.only(left: 20, bottom: 8, top: 8),
               child: Text(
                 'Featured Brand',
                 style: TextStyle(fontSize: 20),
               ),
             ),
             Padding(
-              padding: const EdgeInsets.only(left: 20,bottom: 8),
-              child: Text('Sponsored',style: TextStyle(color: Colors.grey),),
+              padding: const EdgeInsets.only(left: 20, bottom: 8),
+              child: Text(
+                'Sponsored',
+                style: TextStyle(color: Colors.grey),
+              ),
             ),
             Image.asset(
               "assets/power_bank.png",

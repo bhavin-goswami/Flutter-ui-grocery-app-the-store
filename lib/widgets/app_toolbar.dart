@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:home_store/screens/home/home_screen.dart';
+
 final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
 final SnackBar snackBar = const SnackBar(content: Text('Showing Snackbar'));
+
 class AppToolBar extends StatefulWidget {
   @override
   _AppToolBarState createState() => _AppToolBarState();
 }
-class _AppToolBarState extends State<AppToolBar> {
 
+class _AppToolBarState extends State<AppToolBar> {
   @override
   Widget build(BuildContext context) {
-    return  AppBar(
-
-
+    return AppBar(
       title: Padding(
         padding: EdgeInsets.only(left: 10, top: 5),
         child: Text('Home Stores', style: GoogleFonts.rubik(fontSize: 23)),
@@ -34,8 +33,7 @@ class _AppToolBarState extends State<AppToolBar> {
       bottom: PreferredSize(
         preferredSize: const Size.fromHeight(70.0),
         child: Padding(
-          padding:
-          const EdgeInsets.only(left: 10.0, right: 10.0, bottom: 15.0),
+          padding: const EdgeInsets.only(left: 10.0, right: 10.0, bottom: 15.0),
           child: Center(
             child: Container(
               padding: EdgeInsets.all(2),

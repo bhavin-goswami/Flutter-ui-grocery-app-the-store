@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class TopBar extends StatelessWidget {
   Drawer drawer = new Drawer();
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -17,9 +18,11 @@ class TopBar extends StatelessWidget {
                 children: <Widget>[
                   Container(
                     child: FlatButton.icon(
-                      icon: Icon(Icons.pin_drop,
-                          color: Colors.white,
-                          size: 22,), //`Icon` to display
+                      icon: Icon(
+                        Icons.pin_drop,
+                        color: Colors.white,
+                        size: 22,
+                      ), //`Icon` to display
 
                       label: Text('Bandra, se Kalyan Mumbai - 400077',
                           style: TextStyle(

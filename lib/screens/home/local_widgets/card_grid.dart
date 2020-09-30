@@ -49,7 +49,6 @@ class _CardGridState extends State<CardGrid> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
                             SizedBox(
-
                               height:
                                   (MediaQuery.of(context).size.width / 2) - 90,
                               width: double.infinity,
